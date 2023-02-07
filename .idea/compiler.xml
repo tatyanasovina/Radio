@@ -9,5 +9,8 @@
         <module name="Radio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Radioman" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
