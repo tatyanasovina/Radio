@@ -2,9 +2,9 @@ public class Radio {
     private int currentRadioStation;
     private int currentSoundVolume;
 
-    public void nextStation(){
+    public void nextStation() {
         if (currentRadioStation != 9) {
-            currentRadioStation ++;
+            currentRadioStation++;
         } else {
             currentRadioStation = 0;
         }
@@ -12,7 +12,7 @@ public class Radio {
 
     public void prevStation() {
         if (currentRadioStation != 0) {
-            currentRadioStation --;
+            currentRadioStation--;
         } else {
             currentRadioStation = 9;
         }

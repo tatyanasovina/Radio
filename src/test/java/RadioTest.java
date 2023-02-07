@@ -14,6 +14,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testTheNumberOfTheRadioStationIsGreaterThanTheLimit() {
         Radio radio = new Radio();
@@ -135,6 +136,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testBoundarySwitchingToTheNextStationFromZero() {
         Radio radio = new Radio();
@@ -352,7 +354,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testLimitsExceedingTheVolumeLimit () {
+    public void testLimitsExceedingTheVolumeLimit() {
         Radio radio = new Radio();
 
         radio.setCurrentSoundVolume(11);
@@ -364,7 +366,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testTheLimitsOfTheVolumeLimitAreTen () {
+    public void testTheLimitsOfTheVolumeLimitAreTen() {
         Radio radio = new Radio();
 
         radio.setCurrentSoundVolume(10);
@@ -376,7 +378,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testTheLimitsOfTheVolumeLimitAreNine () {
+    public void testTheLimitsOfTheVolumeLimitAreNine() {
         Radio radio = new Radio();
 
         radio.setCurrentSoundVolume(9);
@@ -388,7 +390,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testIncreaseTheVolumeByOne () {
+    public void testIncreaseTheVolumeByOne() {
         Radio radio = new Radio();
         radio.setCurrentSoundVolume(8);
 
@@ -401,7 +403,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testIncreaseTheVolumeByOneLimitValue () {
+    public void testIncreaseTheVolumeByOneLimitValue() {
         Radio radio = new Radio();
         radio.setCurrentSoundVolume(9);
 
@@ -414,7 +416,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testIncreaseTheVolumeByOneLimitValueOfTen () {
+    public void testIncreaseTheVolumeByOneLimitValueOfTen() {
         Radio radio = new Radio();
         radio.setCurrentSoundVolume(10);
 
@@ -427,7 +429,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testIncreaseTheVolumeByOneLimitValueIsGreaterThanTen () {
+    public void testIncreaseTheVolumeByOneLimitValueIsGreaterThanTen() {
         Radio radio = new Radio();
         radio.setCurrentSoundVolume(11);
 
@@ -440,7 +442,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testVolumeReductionByOne () {
+    public void testVolumeReductionByOne() {
         Radio radio = new Radio();
         radio.setCurrentSoundVolume(8);
 
@@ -490,7 +492,6 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
 
 
 }
